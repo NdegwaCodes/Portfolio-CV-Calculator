@@ -1,3 +1,4 @@
+/*NdegwaCode*/
 const Token = Object.freeze({
     BTC: "BTC",
     ETH: "ETH",
