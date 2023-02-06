@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Attach by Process ID",
+            "processId": "${command:PickProcess}",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\index.js"
+        }
+        {
+            "name": "Portfolio Value Calculator",
+            "version": "1.0.0",
+            "description": "",
+            "main": "index.js",
+            "type": "module",
+            "bin": "./index.js",
+            "scripts": {
+              "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "NdegwaCodes",
+            "dependencies": {
+              "chalk": "^5.1.2",
+              "dotenv": "^16.0.3",
+              "nanospinner": "^1.1.0",
+              "node-fetch": "^3.3.0",
+              "yargs": "^17.6.2"
+            }
+          }
+          
+    ]
+}
