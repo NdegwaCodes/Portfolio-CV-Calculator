@@ -1,3 +1,4 @@
+/*NdegwaCode*/
 import chalk from "chalk";
 import yargs from "yargs"
 import fs from "fs"
